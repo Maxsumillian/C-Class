@@ -69,6 +69,7 @@ int main(){
 	Pizza pizza2("Medium",3);
 	Pizza pizza3("small");
 	Pizza pizza4;
+	Pizza pizza5;
 	
 	std::cout<<"\n"<<pizza1.getDesciprion();
 	std::cout<<"\n"<<pizza2.getDesciprion();
