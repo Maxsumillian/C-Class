@@ -13,7 +13,7 @@ class RetailItem
 		int reorderQuantity; //holds the lowest qunatity of units before the store has to order more
 		
 	public:
-		//thsi default Item handels overloaded too
+		//this default constructor handels overloaded as well as handels default values
 		RetailItem(std::string description = "",int unitsOnHand = 0,double price = 0,int reorderQuantity = 0)
 		{
 			this->description = description;
