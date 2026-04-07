@@ -62,6 +62,41 @@ int main()
 		std::cout<<"\n"<<(s1.compare(0,3,s2) == 0);// compares part of the string returns false
 		std::cout<<"\n"<<(s1.compare(0,3,s5) == 0);// compares part of the string returns true
 		
+		if (24 & 7)//checks if both end with zero prints true
+			std::cout<<"\nTrue!"<<( 24 & 7);
+		else
+			std::cout<<"\nFalse!"<<( 24 & 7);
+			
+		//checks if both end with zero
+		
+		if (1 & 3)
+			std::cout<<"\nTrue!"<<( 1 & 1);
+		else
+			std::cout<<"\nFalse!"<<( 3 & 3);
+			
+			
+		if (23 & 3)
+			std::cout<<"\nTrue!"<<( 1 & 1);
+		else
+			std::cout<<"\nFalse!"<<( 3 & 3);
+			
+			
+		std::cout<<"\n"<<(24 & 0);// prints 0
+		std::cout<<"\n"<<(24 | 1);// prints 25
+		
+		std::cout<<"\n"<<(24 & 16);// prints 16
+		
+		std::cout<<"\n"<<(25 | 25);// prints 25
+		
+		std::cout<<"\n"<<(24 & 10);// prints 8
+		
+		
+		
+		//(16 > 7 || 9 < 10)// ends process after reaching one true
+		// 1 or 1 = true 
+		
+		//(16 > 7 | 9 < 10)//checks all of the statment
+		// 1 or 1  =  ture 
 		
 			
 };
