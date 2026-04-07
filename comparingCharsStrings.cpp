@@ -98,5 +98,8 @@ int main()
 		//(16 > 7 | 9 < 10)//checks all of the statment
 		// 1 or 1  =  ture 
 		
+		// read write execute nullpermission
+		
 			
+			//testing my commits from school
 };
