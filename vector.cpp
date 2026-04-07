@@ -18,55 +18,36 @@ int main()
 
 	
 	//std::cout<<"\n"<<temps[0];
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(2);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(3);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(4);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(5);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(6);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(7);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(8);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(9);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
-	
 	temps.push_back(10);
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
+	
 	
 	temps[4] = 55;// able to change vectors like this 
-	
 	temps.pop_back(); // removes the latest back
+	
 	
 	std::cout<<"\n Values in the vector :";
 	for (int x = 0; x < temps.size(); x++)
 	{
 		std::cout<<" "<<temps[x];
 	}
-	
 	std::cout<<"\n Size: " << temps.size()<<" Capacity: "<<temps.capacity();
 	
 	std::cout<<"\nRange Based For loop / Enhanced For Loop\n";
@@ -74,14 +55,12 @@ int main()
 		std::cout<<" "<<oneTemp;
 		//oneTemp is temporary it doesnt change the values in the vector
 		
-	
 	std::cout<<"\nRange Based For loop / Enhanced For Loop\n";
 	for (int oneTemp : temps)// enhanced For loop
 	{
 		oneTemp *= 10;
 		std::cout<<" "<<oneTemp;
 	}
-		
 		
 	std::cout<<"\nRange Based For loop / Enhanced For Loop\n";
 	for (int oneTemp : temps)// enhanced For loop
@@ -95,6 +74,7 @@ int main()
 		oneTemp *= 10;
 		std::cout<<" "<<oneTemp;
 	}
+	
 	std::cout<<"\nRange Based For loop / Enhanced For Loop\n";
 	for (int oneTemp : temps)// enhanced For loop
 		std::cout<<" "<<oneTemp;
