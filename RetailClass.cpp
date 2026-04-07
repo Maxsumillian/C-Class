@@ -53,6 +53,7 @@ class RetailItem
 int main()
 {
 	
+	RetailItem testItem5;
 	RetailItem testItem;
 	RetailItem testItem2("somthing");
 	RetailItem testItem3("somthing again", 3);
